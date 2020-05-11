@@ -10,3 +10,38 @@ body {
   background-color: #eceef1;
   padding: 0.7rem 1.5rem;
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 1.5;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+.nav-links {
+  text-align: right;
+  font-weight: 400;
+}
+
+.nav-links p {
+  color: rgb(80, 80, 80);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.nav-button button {
+  border: 1px solid #4c4c4c;
+  background: #0077c5;
+  border-radius: 4px;
+  color: white;
+  padding: 0 1.3rem;
+  height: 2.2rem;
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+  cursor: pointer;
+}
