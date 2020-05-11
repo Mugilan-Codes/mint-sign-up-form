@@ -1,1 +1,12 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
+body {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eceef1;
+  padding: 0.7rem 1.5rem;
+}
